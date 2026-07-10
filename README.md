@@ -24,7 +24,7 @@ pip install -e .
 cp .env.example .env
 ```
 
-No OpenAI API key or API billing is required. The optional `.env` file only controls the local Ollama model:
+No API key is required. The optional `.env` file only controls the local Ollama model:
 
 ```bash
 LOCAL_MODEL=qwen2.5-coder:3b
